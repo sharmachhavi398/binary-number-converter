@@ -17,8 +17,8 @@ between Binary, Decimal, Octal and Hexadecimal.
 - Responsive interface
 
 ## Live Demo
-
-Add your GitHub Pages link here.
+[ click here to open my website ]
+https://sharmachhavi398.github.io/binary-number-converter/
 
 ## Learning Outcomes
 
