@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Binary Number Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Binary Number Converter</h1>
+
+        <p>
+            Convert numbers between Binary, Decimal,
+            Octal and Hexadecimal.
+        </p>
+
+        <label for="number">Enter your number</label>
+
+        <input
+            type="text"
+            id="number"
+            placeholder="Enter a number"
+        >
+
+        <label for="fromBase">Convert from</label>
+
+        <select id="fromBase">
+            <option value="2">Binary</option>
+            <option value="10" selected>Decimal</option>
+            <option value="8">Octal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+
+        <label for="toBase">Convert to</label>
+
+        <select id="toBase">
+            <option value="2">Binary</option>
+            <option value="10">Decimal</option>
+            <option value="8">Octal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+
+        <button id="convertBtn">Convert Number</button>
+
+        <h2>Result</h2>
+
+        <p id="result">Your result will appear here.</p>
+
+        <button id="copyBtn">Copy Result</button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
